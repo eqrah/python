@@ -1,0 +1,36 @@
+#the gamer profile and score cruncher #day1 tillbDay12 all concepts in one code
+print("**GAMER's OVERALL PROFILE**")
+gmrtag=input("\nEnter your full gamer tag:")
+print(gmrtag)
+lvl=input("Enter your game level:")
+print(lvl)
+point=input("Enter your starting match point:")
+print(point)
+print("\n Data types of above DATA")
+print("DATATYPE IS:",type(gmrtag))
+print("DATATYPE IS:",type(lvl))
+print("DATATYPE IS:",type(point))
+print("**CONVERTING SOME IN NUMERIC**")
+gmlvl=int(lvl)
+print("DATATYPE IS:",type(gmlvl))
+gmpt=float(point)
+print("DATATYPE IS:",type(gmpt))
+print("\nclancode for gamer")
+strt=gmrtag[0:3]
+endd=gmrtag[-3:] #it will start from the 3rd last dig and print to the end for eg : scoutopind ,,,,so its last dig grab is ind(-3) 
+clancode= strt+endd
+print("YOUR CLAN CODE is:",clancode)
+print("\n^^Bonus round Score")
+bonspt=int(input("Enter your bonus match point:"))
+penalty=int(input("Enter yo penalty:"))
+Overallscore=bonspt+gmpt-penalty
+print("YOur overall points:",Overallscore)
+print("overall score before penalty:",bonspt+gmpt)
+print("Modulus of yo both points:",bonspt%gmpt)
+print("\n<<<<<< SUMMARY CARD >>>>>>")
+print("The full gamer tag:",gmrtag)
+print("Gamer's leve:",lvl)
+print("Gamer's clancode name is:",clancode)
+print("Gamer's overall points:",Overallscore)
+
+
