@@ -1,5 +1,5 @@
 # 100-days of python - Daily practice
-This repository contains my personal practice on python course from baics to advance.
+This repository contains my personal practice on python course from basics to advance.
 ## Progress overview from (DAys 1-13)
 # day 1-3 = Python setup and basic print statements ,Hello world program.
 # day 4-6 = Variables , Datatypes and Typecasting
