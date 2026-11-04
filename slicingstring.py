@@ -22,7 +22,7 @@ print(word[4:]) # o=ingo
 print(word[0:8:2]) # o= Faig
 print(word[-6:-2]) # 8-6=2 nd 8-2=6 = amin
 print(word[2:-2]) # 2 ND 8-2=6    = AMIN
-print(word[6:1:-1]) #O= gnima start:stop:step (-1 or -2 at step means we have to look from right to left or skip from ryt to left#)
+print(word[6:1:-1]) #O= gnima start:stop:step (-1 or -2 at step means we have to look from right to left or skip one from ryt to left#)
 print(word[7:2:-2]) #o= onm  
 print()
 p="python"
@@ -30,7 +30,7 @@ print(p[-5:-2]) #O= 6-5=1 nd 6-2=4 = yth
 
 x="COMPUTERS"
 print(x[-7:-3]) #O= 9-7=2 nd 9-3=6 so=MPUT
-print(x[2:-2]) #O= start 2 nd 9-2==MPUTE
+print(x[2:-2]) #O= start 2 nd 9-2==7  =MPUTE
 print(x[-6:5])   #o= start 9-6=3 nd 5 == PU
 print(x[:-4])     # COMPU
 print(x[-5:])   # O=UTERS

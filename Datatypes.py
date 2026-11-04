@@ -19,6 +19,6 @@ print(type(list1))
 tuple=(244,"SAM", [4,9],-6,1.855,["TAR","ACCC"]) #IMMutable '''''
 print(tuple)
 print(type(tuple))
-dict={ "Name":"LEO","STUDENT":"9thgrade","AGE":19,"LOCALITY":"MUM"} #KEY:PAIR VALUE
+dict={ "Name":"LEO","STUDENT":"9thgrade","AGE":19,"LOCALITY":"MUM"} #KEY:PAIR VALUE #UNORDERED
 print(dict)
 print(type(dict))
